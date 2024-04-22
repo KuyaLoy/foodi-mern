@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  daisyui: {
+    themes: ["light"], // This array should be empty to prevent automatic dark theme application
+  },
   theme: {
     extend: {
       colors: {
